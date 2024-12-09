@@ -1,4 +1,4 @@
-export const API_KEY = `AIzaSyCiLkeSI2VObRSm9KRjHJfr3evRTxu9s74`;
+export const API_KEY = import.meta.env.VITE_API_KEY;
 
 export const value_convertor = (value) =>{
     if(value >= 1000000){
